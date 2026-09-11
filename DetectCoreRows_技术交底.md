@@ -2,7 +2,9 @@
 
 **交底对象：** 岩芯图像识别、岩芯箱排版解析、RQD 统计相关研发与现场实施人员  
 **交底范围：** `DetectCoreRows.py` 中的行聚类、分段投影行判定、回次扫描划分及配套可视化  
-**不在本次交底范围：** 岩芯检测模型本身（`ModelRun.runCoreModel_OutputCoreBoxCoor`）、透视校正、RQD 长度换算公式的现场标定
+**不在本次交底范围：** 岩芯检测模型本身（`ModelRun.runCoreModel_OutputCoreBoxCoor`）、透视校正、RQD 长度换算公式的现场标定  
+
+**背景与问题：** 本方案的技术领域、现有做法及要解决的技术问题见 `DetectCoreRows_背景技术与技术问题.md`。下文从工艺与算法交接起写。
 
 ---
 
